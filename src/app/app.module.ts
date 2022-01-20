@@ -6,6 +6,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DefaultsModule } from './layouts/defaults/defaults.module';
 import { AppRoutingModule } from './app-routing.module';
 import { PostsComponent } from './module/posts/posts.component';
+import { ArticlesComponent } from './module/articles/articles.component';
+import { LoginComponent } from './module/login/login.component';
 
 @NgModule({
   declarations: [

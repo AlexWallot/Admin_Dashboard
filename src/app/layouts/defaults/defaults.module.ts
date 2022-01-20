@@ -10,13 +10,21 @@ import { MatDividerModule } from '@angular/material/divider';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatCardModule } from '@angular/material/card';
 import { DashboardService } from 'src/app/module/dashboard.service';
-
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { LoginComponent } from 'src/app/module/login/login.component';
+import { ArticlesComponent } from 'src/app/module/articles/articles.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
     DefaultsComponent,
     DashboardComponent,
-    PostsComponent
+    PostsComponent,
+    ArticlesComponent,
+    LoginComponent,
   ],
   imports: [
     CommonModule,
@@ -26,6 +34,12 @@ import { DashboardService } from 'src/app/module/dashboard.service';
     MatDividerModule,
     FlexLayoutModule,
     MatCardModule,
+    MatFormFieldModule,
+    MatInputModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatIconModule,
+    MatButtonModule
   ],
   providers: [
     DashboardService

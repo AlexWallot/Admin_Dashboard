@@ -1,0 +1,55 @@
+body{
+    background-image: url('../../../assets/image/background.jpg');
+    text-align: center;
+}
+
+form {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.container{
+    width: 30%;
+    height: 80%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+.email-full-width {
+    width: 100%;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+.password-full-width {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+img{
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+button{
+    width: 100%;
+}
