@@ -2,7 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
 
-I created this project to relearn Angular and practice my front-end side. 
+I created this project to relearn Angular and practice my front-end side.
+
+## Informations
+i used this video for the dashboard [Tutorial](https://www.youtube.com/watch?v=FP7Hs8lTy1k)
 
 ## Development server
 
